@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link type="text/css" href="index.css" rel="stylesheet">
+    <title>Calculadora con javascript y css</title>
+</head>
+
+<body>
+
+    <div class="Calculadora">
+        <input id="resultado">
+        <div class="bnt">
+            <button id="simbolos" onclick="quitar()">C</button>
+            <button id="simbolos" onclick="pon('/')">/</button>
+            <button id="simbolos" onclick="pon('x')">*</button>
+            <button id="simbolos" onclick="pon('-')">-</button>
+            <button onclick="pon(7)">7️</button>
+            <button onclick="pon(8)">8️</button>
+            <button onclick="pon(9)">9️</button>
+            <button id="mas" onclick="pon('+')">+</button>
+            <button onclick="pon(4)">4️</button>
+            <button onclick="pon(5)">5️</button>
+            <button onclick="pon(6)">6️</button>
+            <button onclick="pon(1)">1️</button>
+            <button onclick="pon(2)">2️</button>
+            <button onclick="pon(3)">3️</button>
+            <button id="igual" onclick="resultado()">=</button>
+            <button id="cero" onclick="pon(0)">0️</button>
+            <button id="punto" onclick="pon('.')">.</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
